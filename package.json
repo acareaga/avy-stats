@@ -1,0 +1,26 @@
+{
+  "name": "first-tracks",
+  "version": "1.0.0",
+  "description": "Weather, avalanche, and backcountry travel data for the snow community.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acareaga/first-tracks.git"
+  },
+  "keywords": [
+    "Skiing",
+    "Snow",
+    "Avalanche",
+    "Backcountry",
+    "Weather"
+  ],
+  "author": "Aaron Careaga <aaroncareaga@gmail.com> (http://www.aaroncareaga.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/acareaga/first-tracks/issues"
+  },
+  "homepage": "https://github.com/acareaga/first-tracks#readme"
+}
