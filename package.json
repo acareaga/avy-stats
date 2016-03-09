@@ -2,7 +2,7 @@
   "name": "first-tracks",
   "version": "1.0.0",
   "description": "Weather, avalanche, and backcountry travel data for the snow community.",
-  "main": "index.js",
+  "main": "app.js",
   "private": true,
   "directories": {
     "doc": "doc",
