@@ -1,0 +1,80 @@
+body {
+  font-family: 'Doppio One' sans-serif;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  /*background-color: #f1f1f1;*/
+}
+
+html {
+  background: url(http://www.aaroncareaga.com/wp-content/uploads/2016/03/hiddenlakelookout.jpeg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+nav ul li a {
+  color: black;
+}
+
+h5 {
+ margin: 30px 0;
+}
+
+.page-footer {
+ font-size: 80%;
+}
+
+.brand-logo {
+ margin-left: 25px;
+}
+​
+.footer-copyright {
+ font-size: 24px;
+}
+
+a {
+ color: #125688;
+}
+
+a:hover {
+ color: #1c5380;
+}
+
+.card-image {
+ flex: 1 0 auto;
+}
+
+.footer-copyright {
+ font-size: 14px;
+}
+
+.hidden {
+ display: none;
+}
+
+strong {
+ font-weight: 700;
+}
+
+#nav-mobile {
+ margin-right: 25px;
+}
+
+#login-prompt {
+ font: 400 45px/1.3 'Bree Serif', Georgia, serif;
+ /*font-family: 'Lobster', cursive;*/
+}
+
+#navbar-branding {
+ font-family: 'Pacifico', cursive;
+}
+
+#user-profile {
+ font-family: 'Open Sans', sans-serif;
+}
