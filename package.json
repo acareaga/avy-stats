@@ -5,6 +5,7 @@
   "main": "index.js",
   "private": true,
   "directories": {
+    "start": "ember serve --port=${PORT}",
     "doc": "doc",
     "test": "tests"
   },
