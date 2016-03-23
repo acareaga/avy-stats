@@ -1,80 +1,126 @@
-body {
-  font-family: 'Doppio One' sans-serif;
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
-  /*background-color: #f1f1f1;*/
+@import url(http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+* {
+  box-sizing: border-box;
 }
 
 html {
-  background: url(http://www.aaroncareaga.com/wp-content/uploads/2016/03/hiddenlakelookout.jpeg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  width: 100%;
+  height: 100%;
 }
 
-main {
-  flex: 1 0 auto;
+body {
+  width: 1-0%;
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
 }
 
-nav ul li a {
-  color: black;
+.title {
+  color: rgba(189, 193, 199, 0.90909);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 45px;
+  position: center;
 }
 
-h5 {
- margin: 30px 0;
+.clearfix {
+  zoom: 1;
+}
+.clearfix:before, .clearfix:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  overflow: hidden;
+}
+.clearfix:after {
+  clear: both;
 }
 
-.page-footer {
- font-size: 80%;
+body {
+  background: #34495e;
 }
 
-.brand-logo {
- margin-left: 25px;
+.range {
+  width: 22em;
+  top: 5em;
+  position: relative;
+  -webkit-transition: .5s;
+  transition: .5s;
 }
-​
-.footer-copyright {
- font-size: 24px;
-}
-
-a {
- color: #125688;
-}
-
-a:hover {
- color: #1c5380;
+.range:hover {
+  width: 11.5em;
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 
-.card-image {
- flex: 1 0 auto;
+.mountain {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-color: transparent;
+  border-width: 0 0.5775em 1em;
+  position: absolute;
+  -webkit-transform: translate(1em, -1em);
+          transform: translate(1em, -1em);
+  -webkit-transition: .5s;
+  transition: .5s;
 }
-
-.footer-copyright {
- font-size: 14px;
+.range:hover .mountain {
+  -webkit-transform: translate(0, -1em);
+          transform: translate(0, -1em);
+  -webkit-transition: 1s;
+  transition: 1s;
 }
-
-.hidden {
- display: none;
+.mountain:nth-child(1) {
+  font-size: 1em;
+  border-bottom-color: rgba(189, 193, 199, 0.90909);
 }
-
-strong {
- font-weight: 700;
+.mountain:nth-child(2) {
+  font-size: 2em;
+  border-bottom-color: rgba(189, 192, 199, 0.81818);
 }
-
-#nav-mobile {
- margin-right: 25px;
+.mountain:nth-child(3) {
+  font-size: 3em;
+  border-bottom-color: rgba(189, 190, 199, 0.72727);
 }
-
-#login-prompt {
- font: 400 45px/1.3 'Bree Serif', Georgia, serif;
- /*font-family: 'Lobster', cursive;*/
+.mountain:nth-child(4) {
+  font-size: 4em;
+  border-bottom-color: rgba(190, 189, 199, 0.63636);
 }
-
-#navbar-branding {
- font-family: 'Pacifico', cursive;
+.mountain:nth-child(5) {
+  font-size: 5em;
+  border-bottom-color: rgba(191, 189, 199, 0.54545);
 }
-
-#user-profile {
- font-family: 'Open Sans', sans-serif;
+.mountain:nth-child(6) {
+  font-size: 6em;
+  border-bottom-color: rgba(193, 189, 199, 0.45455);
+}
+.mountain:nth-child(7) {
+  font-size: 7em;
+  border-bottom-color: rgba(195, 189, 199, 0.36364);
+}
+.mountain:nth-child(8) {
+  font-size: 8em;
+  border-bottom-color: rgba(196, 189, 199, 0.27273);
+}
+.mountain:nth-child(9) {
+  font-size: 9em;
+  border-bottom-color: rgba(198, 189, 199, 0.18182);
+}
+.mountain:nth-child(10) {
+  font-size: 10em;
+  border-bottom-color: rgba(199, 189, 198, 0.09091);
 }
