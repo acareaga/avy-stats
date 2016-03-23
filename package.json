@@ -9,9 +9,10 @@
     "test": "tests"
   },
   "scripts": {
-    "build": "ember build",
-    "start": "ember server",
-    "test": "mocha"
+    "start": "./node_modules/ember-cli/bin/ember serve --environment=production --port=${PORT}",
+    "build": "./node_modules/ember-cli/bin/ember build",
+    "test": "./node_modules/ember-cli/bin/ember test",
+    "postinstall": "./node_modules/bower/bin/bower install"
   },
   "repository": {
     "type": "git",
