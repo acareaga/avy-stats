@@ -6,10 +6,17 @@
     <title>FirstTracks</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    {{content-for "head"}}
+
     <link rel="stylesheet" href="assets/vendor.css">
     <link rel="stylesheet" href="assets/first-tracks.css">
+
+    {{content-for "head-footer"}}
   </head>
   <body>
+    {{content-for "body"}}
+
     <!-- beta page -->
     <div class="title">
       <h1>FirstTracks</h1>
@@ -31,5 +38,7 @@
 
     <script src="assets/vendor.js"></script>
     <script src="assets/first-tracks.js"></script>
+
+    {{content-for "body-footer"}}
   </body>
 </html>
