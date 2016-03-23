@@ -1,6 +1,6 @@
 # FirstTracks
 
-[Live App](https://first-tracks.herokuapp.com/)
+[Live App](https://acareaga.github.io/first-tracks/)
 
 ## Description
 
