@@ -55,5 +55,8 @@
     "ember-resolver": "^2.0.3",
     "loader.js": "^4.0.0",
     "mocha": "2.4.5"
+  },
+  "dependencies": {
+    "bower": "1.7.7"
   }
 }
