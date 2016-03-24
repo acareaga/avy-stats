@@ -1,6 +1,6 @@
 @import url(http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css);
 /*@import url(https://fonts.googleapis.com/css?family=Open+Sans);*/
-@import url(https://fonts.googleapis.com/css?family=Architects+Daughter);
+@import url(https://fonts.googleapis.com/css?family=Covered+By+Your+Grace);
 
 
 * {
@@ -34,7 +34,7 @@ body {
 .title {
   color: rgba(189, 193, 199, 0.90909);
   /*font-family: 'Open Sans', sans-serif;*/
-  font-family: 'Architects Daughter', cursive;
+  font-family: 'Covered By Your Grace', cursive;
   font-size: 45px;
   position: center;
 }
