@@ -37,6 +37,7 @@
     "broccoli-asset-rev": "^2.2.0",
     "chai": "3.5.0",
     "ember-ajax": "0.7.1",
+    "ember-bootstrap": "0.6.4",
     "ember-cli": "2.4.2",
     "ember-cli-app-version": "^1.0.0",
     "ember-cli-babel": "^5.1.5",
