@@ -1,25 +1,62 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>FirstTracks</title>
-    <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Backcountry Decision Tool">
+    <meta name="author" content="Kaska">
 
-    {{content-for "head"}}
-
+    <!-- {{content-for "head"}} -->
+    <!-- <link rel="icon" href="../../favicon.ico"> -->
+    <title>FirstTracks</title>
+    <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/vendor.css">
     <link rel="stylesheet" href="assets/first-tracks.css">
-
-    {{content-for "head-footer"}}
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <!-- {{content-for "head-footer"}} -->
   </head>
-  <body>
-    {{content-for "body"}}
 
+  <body>
+    <div class="site-wrapper">
+      <div class="site-wrapper-inner">
+        <div class="cover-container">
+
+          <div class="masthead clearfix">
+            <div class="inner">
+              <h3 class="masthead-brand">FirstTracks</h3>
+              <nav>
+                <ul class="nav masthead-nav">
+                  <li class="active"><a href="#">Home</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+
+          <div class="inner cover">
+            <h1 class="cover-heading">Navigate Safely</h1>
+            <p class="lead">Navigate through avalanche terrain with FirstTracks. We're still crafting, but we'll notify you as soon as we're ready.</p>
+            <p class="lead">
+              <a href="#" class="btn btn-lg btn-default">Get early access</a>
+            </p>
+          </div>
+
+          <!-- {{content-for "body"}} -->
+
+          <div class="mastfoot">
+            <div class="inner">
+              <p>Made with love in <a href="#">Colorado</a>, by <a href="https://twitter.com/aaroncareaga">@aaroncareaga</a>.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="assets/vendor.js"></script>
     <script src="assets/first-tracks.js"></script>
 
-    {{content-for "body-footer"}}
+    <!-- {{content-for "body-footer"}} -->
   </body>
 </html>
