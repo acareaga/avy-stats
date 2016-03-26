@@ -1,0 +1,18 @@
+<h1>Welcome to FirstTracks</h1>
+
+<p>Community driven web application that provides backcountry users with
+  real-time weather and trip information focused around evaluating risk
+  in avalanche terrain.</p>
+
+{{#link-to "about"}}About{{/link-to}}
+{{#link-to "contact"}}Contact{{/link-to}}
+
+{{#each model as |mountain|}}
+  <h2>{{mountain.title}}</h2>
+  <p>Owner: {{mountain.owner}}</p>
+  <p>Type: {{mountain.type}}</p>
+  <p>Location: {{mountain.city}}</p>
+  <p>Number of bedrooms: {{mountain.bedrooms}}</p>
+{{/each}}
+
+{{outlet}}
