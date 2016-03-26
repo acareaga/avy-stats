@@ -1,0 +1,13 @@
+<h2>{{mountain.title}}</h2>
+<p>Owner: {{mountain.owner}}</p>
+<p>Type: {{mountain.type}}</p>
+<p>Location: {{mountain.city}}</p>
+<p>Number of bedrooms: {{mountain.bedrooms}}</p>
+{{#if isImageShowing}}
+  <p><img src={{mountain.image}} alt={{mountain.type}} width="500"></p>
+  <button {{action "imageHide"}}>Hide image</button>
+{{else}}
+  <button {{action "imageShow"}}>Show image</button>
+{{/if}}
+
+{{yield}}
