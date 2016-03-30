@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/acareaga/first-tracks.png?label=ready&title=Ready)](https://waffle.io/acareaga/first-tracks)
 # FirstTracks
 
 [Live App](https://acareaga.github.io/first-tracks/)
