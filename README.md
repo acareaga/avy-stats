@@ -20,24 +20,17 @@ $ npm install
 Fire up a development server:
 
 ```
-npm start
+ember s
 ```
 
 Once the server is running, you can visit:
 
-* `http://localhost:8080/webpack-dev-server/` to run the application.
-* `http://localhost:8080/webpack-dev-server/test.html` to run the test suite in the browser.
+* `http://localhost:4200` to run the application.
 
-To build the static files:
-
-```js
-npm run build
-```
-
-To run tests in Node:
+To run tests in Ember:
 
 ```js
-npm test
+ember test
 ```
 
 ## Dependencies
@@ -45,8 +38,7 @@ npm test
 Uses with the following versions:
 
 ```
-"chai": "3.4.1",
-"mocha": "2.3.4"
+"bower": "1.7.7"
 ```
 
 ## Contributing
