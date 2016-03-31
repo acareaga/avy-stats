@@ -1,5 +1,13 @@
-@import "bootstrap";
+@import 'bootstrap';
 
 body {
   padding-top: 20px;
+}
+
+html {
+  overflow-y: scroll;
+}
+
+.zone-item {
+  min-height: 150px;
 }

@@ -5,7 +5,7 @@ module.exports = function(environment) {
     modulePrefix: 'first-tracks',
     environment: environment,
     contentSecurityPolicy: { 'connect-src': "'self' https://auth.firebase.com wss://*.firebaseio.com" },
-    firebase: 'https://radiant-torch-6473.firebaseio.com/',
+    firebase: 'https://first-tracks.firebaseio.com/',
     baseURL: '/',
     locationType: 'auto',
     EmberENV: {

@@ -20,6 +20,7 @@ Router.map(function() {
 
   this.route('zones', function() {
     this.route('new');
+    this.route('edit', { path: '/:zone_id/edit' });
   });
 });
 
