@@ -1,0 +1,13 @@
+<h2>List</h2>
+
+{{#each model as |zone|}}
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h3 class="panel-title">{{zone.name}}</h3>
+        </div>
+        <div class="panel-body">
+            <p>State: {{zone.state}}</p>
+            <p>Location: {{zone.location}}</p>
+        </div>
+    </div>
+{{/each}}

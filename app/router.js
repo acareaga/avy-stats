@@ -13,6 +13,14 @@ Router.map(function() {
   });
   this.route('post', { path: '/post/:post_id' });
   this.route('page-not-found', { path: '/*wildcard' });
+
+  this.route('admin', function() {
+    this.route('invitations');
+  });
+
+  this.route('zones', function() {
+    this.route('new');
+  });
 });
 
 export default Router;

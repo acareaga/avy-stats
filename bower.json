@@ -9,6 +9,7 @@
     "lodash": "~3.7.0",
     "Faker": "~3.0.0",
     "bootstrap": "~3.3.5",
-    "bootstrap-sass": "^3.3.6"
+    "bootstrap-sass": "^3.3.6",
+    "firebase": "^2.1.0"
   }
 }
