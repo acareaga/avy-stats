@@ -1,0 +1,21 @@
+<h2>All</h2>
+
+<div class="row">
+  {{#each model as |zone|}}
+    <div class="col-md-4">
+      <div class="panel panel-default zone-item">
+          <div class="panel-heading">
+              <h3 class="panel-title">{{zone.name}}</h3>
+          </div>
+          <div class="panel-body">
+              <p>State: {{zone.state}}</p>
+              <p>Location: {{zone.location}}</p>
+          </div>
+          <div class="panel-footer text-right">
+              {{#link-to 'zones.edit' zone.id class='btn btn-success btn-xs'}}Edit{{/link-to}}
+              <button class="btn btn-danger btn-xs" {{action 'deleteZone' zone}}>Delete</button>
+          </div>
+      </div>
+    </div>
+  {{/each}}
+</div>

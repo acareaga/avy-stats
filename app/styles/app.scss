@@ -1,0 +1,20 @@
+@import 'bootstrap';
+
+body {
+  height: 100vh;
+  margin: 0;
+  background: radial-gradient(ellipse farthest-corner at center bottom, #2e9aa4, #34495e);
+  font-family: 'Roboto', sans-serif;
+  font-color: white;
+}
+body {
+  padding-top: 20px;
+}
+
+html {
+  overflow-y: scroll;
+}
+
+.zone-item {
+  min-height: 150px;
+}
