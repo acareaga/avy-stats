@@ -1,6 +1,6 @@
 # FirstTracks
 
-[Live App](https://acareaga.github.io/first-tracks/)
+[Live App](https://first-tracks.firebaseapp.com/)
 
 ## Description
 
