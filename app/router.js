@@ -22,6 +22,7 @@ Router.map(function() {
     this.route('new');
     this.route('edit', { path: '/:zone_id/edit' });
   });
+  this.route('resources');
 });
 
 export default Router;
