@@ -1,17 +1,17 @@
-# FirstTracks
+# AvyStats
 
 [Live App](https://first-tracks.firebaseapp.com/)
 
 ## Description
 
-Weather, avalanche, and backcountry travel data for the snow community on a web platform that simplifies the user experience. The `FirstTracks` codebase is maintained by [Aaron Careaga](https://twitter.com/aaroncareaga) and [Kaska](http://www.kaska.co/).
+Weather, avalanche, and backcountry travel data for the snow community on a web platform that simplifies the user experience. The `AvyStats` codebase is maintained by [Aaron Careaga](https://twitter.com/aaroncareaga) and [Kaska](http://www.kaska.co/).
 
 ## Installation
 
 Clone repository and install dependencies:
 
 ```
-$ git clone git@github.com:acareaga/first-tracks.git
+$ git clone git@github.com:acareaga/avy-stats.git
 $ cd first-tracks
 $ npm install
 ```
@@ -57,6 +57,6 @@ Please open an issue if you have any other updates that would be nice to have.
 
 ## License
 
-The `FirstTracks` codebase is released under the [MIT License](http://www.opensource.org/licenses/MIT).
+The `AvyStats` codebase is released under the [MIT License](http://www.opensource.org/licenses/MIT).
 
 
